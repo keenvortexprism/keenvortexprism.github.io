@@ -412,10 +412,10 @@
                 <div></div>
                 <div class="flex-vertical flex-align-center">
                   <h1 class="fl-home-hero-text">
-                    KeenVortex Prism &#x27; and <span class="font-weight-black">RHYTHM.ERROR</span>
+                    <span class="font-weight-black">RHYTHM.ERROR</span>
                   </h1>
                   <div class="hero-button-wrapper">
-                    <a href="#" class="button-2 white-outline w-inline-block w-lightbox">
+                    <!-- <a href="#" class="button-2 white-outline w-inline-block w-lightbox">
                       <div class="button-text">Watch Our Showreel </div>
                       <script type="application/json" class="w-json">
                                                     {
@@ -432,7 +432,7 @@
                                                         ],
                                                         "group": ""
                                                     }</script>
-                    </a>
+                    </a> -->
                   </div>
                 </div>
                 <div class="fl-home-hero-social-icons">
@@ -469,81 +469,74 @@
       </header>
       <section class="fl-who-we-are-section">
   <div class="who-we-are-content">
-    <div class="flex-vertical flex-align-center">
+  <div class="flex-vertical flex-align-center">
 
-      <p
-        words-slide-up=""
-        text-split=""
-        class="fl-who-we-are-large tricks align-center"
-        style="transform: translateY(-100px);"
-      >
-        In the endless flow of <span class="text-color-blue">technology,</span>
-        <span class="text-weight-semibold">feel the rhythm</span>
-        of humanity.
-      </p>
+    <p
+      words-slide-up=""
+      text-split=""
+      class="fl-who-we-are-large tricks align-center"
+      style="transform: translateY(-100px);"
+    >
+      In the endless flow of <span class="text-color-blue">technology,</span>
+      <span class="text-weight-semibold">feel the rhythm</span>
+      of humanity.
+    </p>
 
-      <button
-        onclick="toggleText5()"
-        ontouchstart="toggleText5(); event.preventDefault();"
-        style="
-          position:absolute;
-          bottom:40px;
-          left:50%;
-          transform:translateX(-50%);
-          z-index:9999;
-          padding:12px 28px;
-          background:transparent;
-          color:white;
-          border:1px solid rgba(255,255,255,0.7);
-          border-radius:999px;
-          font-size:14px;
-          letter-spacing:1px;
-          cursor:pointer;
-          backdrop-filter:blur(6px);
-        "
-      >
-        VIEW MORE
-      </button>
+    <!-- VIEW MORE TEXT (ĐẶT NGAY DƯỚI PARAGRAPH) -->
+    <div
+      id="hiddenText5"
+      style="
+        display:none;
+        color:white;
+        font-size:clamp(14px, 2.5vw, 18px);
+        line-height:1.6;
+        text-align:center;
 
-      <div
-        id="hiddenText5"
-        style="
-          display:none;
-          position:absolute;
-          top:87%;
-          left:50%;
-          transform:translate(-50%,-50%);
-          color:white;
-          font-size:18px;
-          width:80%;
-          text-align:center;
-          z-index:9999;
-        "
-      >
-        Inspired by everyday experiences and the process of learning in an era of rapidly advancing digital technology, this artwork places humans at the center of a society increasingly driven by data, where the natural rhythm of life is gradually shaped by the speed of digital systems. Through visuals, sound, and direct interaction, the work reconstructs the evolution of technology — from primitive signals to a fully datafied world. At the same time, it raises questions about human existence in a reality where emotions, memories, and movements are continuously transformed into data that can be calculated and controlled.
+        width:min(90vw, 800px);
+        margin:20px auto;
 
-      </div>
-
+        word-break:break-word;
+        overflow-wrap:break-word;
+      "
+    >
+      Inspired by everyday experiences and the process of learning in an era of rapidly advancing digital technology, this artwork places humans at the center of a society increasingly driven by data, where the natural rhythm of life is gradually shaped by the speed of digital systems. Through visuals, sound, and direct interaction, the work reconstructs the evolution of technology — from primitive signals to a fully datafied world. At the same time, it raises questions about human existence in a reality where emotions, memories, and movements are continuously transformed into data that can be calculated and controlled.
     </div>
+
+    <button
+      onclick="toggleText5()"
+      ontouchstart="toggleText5(); event.preventDefault();"
+      style="
+        margin-top:20px;
+
+        padding:12px 28px;
+        background:transparent;
+        color:white;
+        border:1px solid rgba(255,255,255,0.7);
+        border-radius:999px;
+
+        font-size:14px;
+        letter-spacing:1px;
+        cursor:pointer;
+
+        backdrop-filter:blur(6px);
+      "
+    >
+      VIEW MORE
+    </button>
+
   </div>
-  <script>
+</div>
 
+<script>
 function toggleText5() {
-
   const text = document.getElementById("hiddenText5");
 
   if (text.style.display === "block") {
-
     text.style.display = "none";
-
   } else {
-
     text.style.display = "block";
-
   }
-
 }
-
 </script>
 </section>
             <!-- <div class="div-block">

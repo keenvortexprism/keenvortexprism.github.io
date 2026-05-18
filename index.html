@@ -470,12 +470,65 @@
       <section class="fl-who-we-are-section">
         <div class="who-we-are-content">
           <div class="flex-vertical flex-align-center">
-            <p words-slide-up="" text-split="" class="fl-who-we-are-large tricks align-center">
-              We are a <span class="text-color-blue">creative studio</span>
-              <span class="text-weight-semibold">igniting global action</span>
-              , one story at a time.
+            <<p
+              words-slide-up=""
+              text-split=""
+              class="fl-who-we-are-large tricks align-center"
+              style="transform: translateY(-100px);"
+            >
+              In the endless flow of <span class="text-color-blue">technology,</span>
+              <span class="text-weight-semibold">feel the rhythm</span>
+              of humanity.
             </p>
-            <div class="div-block">
+            <button
+                  onclick="toggleText2()"
+                  ontouchstart="toggleText2(); event.preventDefault();"
+                  style="
+                  position:absolute;
+                  bottom:40px;
+                  left:50%;
+                  transform:translateX(-50%);
+                  z-index:9999;
+                  padding:12px 28px;
+                  background:transparent;
+                  color:white;
+                  border:1px solid rgba(255,255,255,0.7);
+                  border-radius:999px;
+                  font-size:14px;
+                  letter-spacing:1px;
+                  cursor:pointer;
+                  backdrop-filter:blur(6px);
+                  ">
+
+                  VIEW MORE
+
+                </button>
+
+                <div
+                  id="hiddenText2"
+                  style="
+                  display:none;
+                  position:absolute;
+                  top:87%;
+                  left:50%;
+                  transform:translate(-50%,-50%);
+                  color:white;
+                  font-size:18px;
+                  width:80%;
+                  text-align:center;
+                  z-index:9999;
+                  ">
+
+                  Technology begins to directly interfere with light, transforming it into an entity that can be interacted with and controlled. Beams of light respond to the viewer’s body movements, creating the sensation that humans are using data to manipulate the surrounding space. Digital signals gradually emerge, symbolizing the increasingly visible presence of the digital world in modern life. Through gestures and interaction with light, viewers experience the moment when humans first began controlling nature through technology.
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+            <!-- <div class="div-block">
               <a data-w-id="df77b17b-4e68-252c-dd6d-9057b4e92536" href="/about"
                 class="fl-button-link-act cc-partners w-inline-block">
                 <div class="button-link-content-act">
@@ -500,14 +553,17 @@
                   <div style="width:0px" class="link-progress-bar"></div>
                 </div>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
       <section class="fl-featured-work-section">
         <h2 class="fl-eyebrow cc-featured-work">KVP Work</h2>
-        <div class="project-link-aspect-ratio">
-          <!-- 1 -->
+        <!-- <div class="project-link-aspect-ratio"> -->
+          <!-- ========================= -->
+          <!-- PROJECT 1 -->
+          <!-- ========================= -->
+
           <div class="project-link-aspect-ratio">
 
             <div hover-wrapper="true" class="project-link w-inline-block">
@@ -516,7 +572,6 @@
 
                 <div class="project-link-content-wrapper">
 
-                  <!-- VIDEO -->
                   <div
                     data-autoplay="true"
                     data-loop="true"
@@ -531,7 +586,6 @@
 
                   </div>
 
-                  <!-- IMAGE -->
                   <img
                     src="images/664371bb431ad8e9d46318c3_MoneyTrees_still_5.1.4.webp"
                     alt=""
@@ -539,7 +593,6 @@
 
                   <div class="project-overlay"></div>
 
-                  <!-- TEXT -->
                   <div class="project-link-text-wrapper">
                     <p class="fl-project-partner">PRIMITIVE</p>
                     <h3 class="fl-project-title">RHYTHM</h3>
@@ -547,44 +600,47 @@
 
                 </div>
 
-                <!-- BUTTON -->
-                <div
-                  hover-button="true"
-                  class="hover-button"
-                  ontouchstart="toggleText1()"
-                  onclick="toggleText1()">
-                  <div class="hover-button-overflow">
+                <button
+                  onclick="toggleText1()"
+                  ontouchstart="toggleText1(); event.preventDefault();"
+                  style="
+                  position:absolute;
+                  bottom:40px;
+                  left:50%;
+                  transform:translateX(-50%);
+                  z-index:9999;
+                  padding:12px 28px;
+                  background:transparent;
+                  color:white;
+                  border:1px solid rgba(255,255,255,0.7);
+                  border-radius:999px;
+                  font-size:14px;
+                  letter-spacing:1px;
+                  cursor:pointer;
+                  backdrop-filter:blur(6px);
+                  ">
 
-                    <div class="hover-link-homepage">
+                  VIEW MORE
 
-                      <img
-                        src="images/65ae7234ec9efd8dccc10db3_play(24x24)%402x.svg"
-                        loading="lazy"
-                        width="24"
-                        alt=""
-                        class="scroll-icon" />
+                </button>
 
-                    </div>
-
-                  </div>
-
-                </div>
-
-                <!-- HIDDEN -->
                 <div
                   id="hiddenText1"
                   style="
                   display:none;
-                  color:white;
-                  font-size:24px;
                   position:absolute;
-                  top:75%;
+                  top:70%;
                   left:50%;
                   transform:translate(-50%,-50%);
-                  z-index:999;
+                  color:white;
+                  font-size:18px;
+                  width:80%;
+                  text-align:center;
+                  z-index:9999;
                   ">
 
                   A primordial state of the world where sound and light exist as a continuous and natural flow. Visual movements oscillate according to sound frequencies, creating the sensation of witnessing the very first heartbeat of life. Without the intervention of technology or data, everything operates through pure intuition and emotion. This space represents how humans once perceived the world through their most original senses, before everything was converted into digital signals.
+
                 </div>
 
               </div>
@@ -593,7 +649,10 @@
 
           </div>
 
-          <!-- 2 -->
+          <!-- ========================= -->
+          <!-- PROJECT 2 -->
+          <!-- ========================= -->
+
           <div class="project-link-aspect-ratio">
 
             <div hover-wrapper="true" class="project-link w-inline-block">
@@ -630,40 +689,43 @@
 
                 </div>
 
-                <div
-                  hover-button="true"
-                  class="hover-button"
-                  ontouchstart="toggleText1()"
-                  onclick="toggleText2()">
+                <button
+                  onclick="toggleText2()"
+                  ontouchstart="toggleText2(); event.preventDefault();"
+                  style="
+                  position:absolute;
+                  bottom:40px;
+                  left:50%;
+                  transform:translateX(-50%);
+                  z-index:9999;
+                  padding:12px 28px;
+                  background:transparent;
+                  color:white;
+                  border:1px solid rgba(255,255,255,0.7);
+                  border-radius:999px;
+                  font-size:14px;
+                  letter-spacing:1px;
+                  cursor:pointer;
+                  backdrop-filter:blur(6px);
+                  ">
 
-                  <div class="hover-button-overflow">
+                  VIEW MORE
 
-                    <div class="hover-link-homepage">
-
-                      <img
-                        src="images/65ae7234ec9efd8dccc10db3_play(24x24)%402x.svg"
-                        loading="lazy"
-                        width="24"
-                        alt=""
-                        class="scroll-icon" />
-
-                    </div>
-
-                  </div>
-
-                </div>
+                </button>
 
                 <div
                   id="hiddenText2"
                   style="
                   display:none;
-                  color:white;
-                  font-size:24px;
                   position:absolute;
                   top:70%;
                   left:50%;
                   transform:translate(-50%,-50%);
-                  z-index:999;
+                  color:white;
+                  font-size:18px;
+                  width:80%;
+                  text-align:center;
+                  z-index:9999;
                   ">
 
                   Technology begins to directly interfere with light, transforming it into an entity that can be interacted with and controlled. Beams of light respond to the viewer’s body movements, creating the sensation that humans are using data to manipulate the surrounding space. Digital signals gradually emerge, symbolizing the increasingly visible presence of the digital world in modern life. Through gestures and interaction with light, viewers experience the moment when humans first began controlling nature through technology.
@@ -676,7 +738,10 @@
 
           </div>
 
-          <!-- 3 -->
+          <!-- ========================= -->
+          <!-- PROJECT 3 -->
+          <!-- ========================= -->
+
           <div class="project-link-aspect-ratio">
 
             <div hover-wrapper="true" class="project-link w-inline-block">
@@ -713,40 +778,43 @@
 
                 </div>
 
-                <div
-                  hover-button="true"
-                  class="hover-button"
-                  ontouchstart="toggleText1()"
-                  onclick="toggleText3()">
+                <button
+                  onclick="toggleText3()"
+                  ontouchstart="toggleText3(); event.preventDefault();"
+                  style="
+                  position:absolute;
+                  bottom:40px;
+                  left:50%;
+                  transform:translateX(-50%);
+                  z-index:9999;
+                  padding:12px 28px;
+                  background:transparent;
+                  color:white;
+                  border:1px solid rgba(255,255,255,0.7);
+                  border-radius:999px;
+                  font-size:14px;
+                  letter-spacing:1px;
+                  cursor:pointer;
+                  backdrop-filter:blur(6px);
+                  ">
 
-                  <div class="hover-button-overflow">
+                  VIEW MORE
 
-                    <div class="hover-link-homepage">
-
-                      <img
-                        src="images/65ae7234ec9efd8dccc10db3_play(24x24)%402x.svg"
-                        loading="lazy"
-                        width="24"
-                        alt=""
-                        class="scroll-icon" />
-
-                    </div>
-
-                  </div>
-
-                </div>
+                </button>
 
                 <div
                   id="hiddenText3"
                   style="
                   display:none;
-                  color:white;
-                  font-size:24px;
                   position:absolute;
                   top:70%;
                   left:50%;
                   transform:translate(-50%,-50%);
-                  z-index:999;
+                  color:white;
+                  font-size:18px;
+                  width:80%;
+                  text-align:center;
+                  z-index:9999;
                   ">
 
                   The world has become fully datafied and now exists as a point cloud — a collection of countless coordinate points within digital space. Objects gradually lose their original physical forms and are transformed into data structures that can be reconstructed, replicated, and modified through technology. The boundary between reality and virtuality no longer exists clearly. Everything merges into a multidimensional structure where perception itself can be simulated, edited, or redefined.
@@ -759,11 +827,111 @@
 
           </div>
 
+          <!-- ========================= -->
+          <!-- PROJECT 4 -->
+          <!-- ========================= -->
+
+          <div class="project-link-aspect-ratio">
+
+            <div hover-wrapper="true" class="project-link w-inline-block">
+
+              <div class="reveal-parent">
+
+                <div class="project-link-content-wrapper">
+
+                  <div
+                    data-autoplay="true"
+                    data-loop="true"
+                    class="project-link-background-video w-background-video w-background-video-atom">
+
+                    <video autoplay loop muted playsinline data-object-fit="cover">
+
+                      <source src="images/648610ba48d5ac597d974bb9_FeaturedWorkWasteminster-transcode.mp4" />
+                      <source src="images/648610ba48d5ac597d974bb9_FeaturedWorkWasteminster-transcode.webm" />
+
+                    </video>
+
+                  </div>
+
+                  <img
+                    src="images/649a3abf2c9c98621488d7c1_Wasteminster.Cover.webp"
+                    alt=""
+                    class="project-link-poster" />
+
+                  <div class="project-overlay"></div>
+
+                  <div class="project-link-text-wrapper">
+                    <p class="fl-project-partner"></p>
+                    <h3 class="fl-project-title">ERROR</h3>
+                  </div>
+
+                </div>
+
+                <button
+                  onclick="toggleText4()"
+                  ontouchstart="toggleText4(); event.preventDefault();"
+                  style="
+                  position:absolute;
+                  bottom:40px;
+                  left:50%;
+                  transform:translateX(-50%);
+                  z-index:9999;
+                  padding:12px 28px;
+                  background:transparent;
+                  color:white;
+                  border:1px solid rgba(255,255,255,0.7);
+                  border-radius:999px;
+                  font-size:14px;
+                  letter-spacing:1px;
+                  cursor:pointer;
+                  backdrop-filter:blur(6px);
+                  ">
+
+                  VIEW MORE
+
+                </button>
+
+                <div
+                  id="hiddenText4"
+                  style="
+                  display:none;
+                  position:absolute;
+                  top:70%;
+                  left:50%;
+                  transform:translate(-50%,-50%);
+                  color:white;
+                  font-size:18px;
+                  width:80%;
+                  text-align:center;
+                  z-index:9999;
+                  ">
+
+                  A moment when the speed of technological development surpasses the limits of human perception. Distorted signals and states of “error” begin to emerge — representing a dissonance between humans and the accelerating pace of data-driven technology. In a high-speed data society, can humans still preserve their natural rhythm?
+Perhaps we need to slow down and listen once again to the familiar rhythm that existed before every machine and system. In doing so, we may realize that “error” is not merely a malfunction, but a necessary deviation that allows humans to rediscover their own original rhythm.
+
+
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- ========================= -->
+          <!-- SCRIPT -->
+          <!-- ========================= -->
+
           <script>
+
           function toggleText1() {
             var text = document.getElementById("hiddenText1");
 
-            if (text.style.display === "none") {
+            if (
+              text.style.display === "none" ||
+              text.style.display === ""
+            ) {
               text.style.display = "block";
             } else {
               text.style.display = "none";
@@ -773,7 +941,10 @@
           function toggleText2() {
             var text = document.getElementById("hiddenText2");
 
-            if (text.style.display === "none") {
+            if (
+              text.style.display === "none" ||
+              text.style.display === ""
+            ) {
               text.style.display = "block";
             } else {
               text.style.display = "none";
@@ -783,131 +954,30 @@
           function toggleText3() {
             var text = document.getElementById("hiddenText3");
 
-            if (text.style.display === "none") {
+            if (
+              text.style.display === "none" ||
+              text.style.display === ""
+            ) {
               text.style.display = "block";
             } else {
               text.style.display = "none";
             }
           }
-          </script>
-        <div class="project-link-aspect-ratio">
 
-          <div hover-wrapper="true" class="project-link w-inline-block">
+          function toggleText4() {
+            var text = document.getElementById("hiddenText4");
 
-            <div class="reveal-parent">
-
-              <div class="project-link-content-wrapper">
-
-                <div
-                  data-poster-url="images/648610ba48d5ac597d974bb9_FeaturedWorkWasteminster-poster-00001.jpg"
-                  data-video-urls="images/648610ba48d5ac597d974bb9_FeaturedWorkWasteminster-transcode.mp4,images/648610ba48d5ac597d974bb9_FeaturedWorkWasteminster-transcode.webm"
-                  data-autoplay="true"
-                  data-loop="true"
-                  data-wf-ignore="true"
-                  class="project-link-background-video w-background-video w-background-video-atom">
-
-                  <video
-                    id="c4ebd064-539b-75dd-dbaa-4551e58f7ee2-video"
-                    autoplay
-                    loop
-                    muted
-                    playsinline
-                    data-wf-ignore="true"
-                    data-object-fit="cover"
-                    style="background-image:url('images/648610ba48d5ac597d974bb9_FeaturedWorkWasteminster-poster-00001.jpg')">
-
-                    <source
-                      src="images/648610ba48d5ac597d974bb9_FeaturedWorkWasteminster-transcode.mp4"
-                      data-wf-ignore="true" />
-
-                    <source
-                      src="images/648610ba48d5ac597d974bb9_FeaturedWorkWasteminster-transcode.webm"
-                      data-wf-ignore="true" />
-
-                  </video>
-
-                </div>
-
-                <img
-                  src="images/649a3abf2c9c98621488d7c1_Wasteminster.Cover.webp"
-                  loading="lazy"
-                  alt=""
-                  class="project-link-poster" />
-
-                <div class="project-overlay"></div>
-
-                <div class="project-link-text-wrapper">
-                  <p class="fl-project-partner"></p>
-                  <h3 class="fl-project-title">ERROR</h3>
-                </div>
-
-              </div>
-
-              <!-- BUTTON -->
-              <div
-                hover-button="true"
-                class="hover-button"
-                ontouchstart="toggleText1()"
-                onclick="toggleText4()">
-
-                <div class="hover-button-overflow">
-
-                  <div
-                    plyr-play="true"
-                    data-w-id="92112588-1ca7-5d88-f52d-96b9febaa86d"
-                    class="hover-link-homepage">
-
-                    <img
-                      src="images/65ae7234ec9efd8dccc10db3_play(24x24)%402x.svg"
-                      loading="lazy"
-                      width="24"
-                      alt=""
-                      class="scroll-icon" />
-
-                  </div>
-
-                </div>
-
-              </div>
-
-              <!-- HIDDEN TEXT -->
-              <div
-                id="hiddenText"
-                style="
-                display:none;
-                color:white;
-                font-size:24px;
-                position:absolute;
-                top:70%;
-                left:50%;
-                transform:translate(-50%,-50%);
-                z-index:999;
-                ">
-
-                A moment when the speed of technological development surpasses the limits of human perception. Distorted signals and states of “error” begin to emerge — representing a dissonance between humans and the accelerating pace of data-driven technology. In a high-speed data society, can humans still preserve their natural rhythm?
-Perhaps we need to slow down and listen once again to the familiar rhythm that existed before every machine and system. In doing so, we may realize that “error” is not merely a malfunction, but a necessary deviation that allows humans to rediscover their own original rhythm.
-
-              </div>
-
-              <div class="reveal-child"></div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <script>
-        function toggleText() {
-          var text = document.getElementById("hiddenText");
-
-          if (text.style.display === "none") {
-            text.style.display = "block";
-          } else {
-            text.style.display = "none";
+            if (
+              text.style.display === "none" ||
+              text.style.display === ""
+            ) {
+              text.style.display = "block";
+            } else {
+              text.style.display = "none";
+            }
           }
-        }
-        </script>
+
+          </script>
       </section>
       <section data-w-id="7a2685ce-74bb-6be3-5fac-fe72b814f4a8" class="fl-our-partners-section">
         <video
@@ -922,14 +992,13 @@ Perhaps we need to slow down and listen once again to the familiar rhythm that e
         <div class="partners-split relative-position">
           <div>
             <div class="margin-bottom">
-              <h2 class="fl-eyebrow cc-featured-work">Our Partners</h2>
+              <h2 class="fl-eyebrow cc-featured-work">Our Story</h2>
             </div>
-            <p class="fl-who-we-are-large tricks">
-              Our partners stand<br />
-              for <span class="u--font-700-bold">positive change.</span>
+            <p class="fl-who-we-are-small">
+              When every rhythm of life is synchronized by algorithms and processing speed,  <br />
+              <!-- processing speed, <span class="u--font-700-bold">can humans still </span> -->
             </p>
-            <p class="fl-who-we-are-small">Studio Birthplace works with a global community to inspire action towards a
-              just, healthy world.</p>
+            <p class="fl-who-we-are-large tricks">can humans still <span class="u--font-700-bold">retain their natural biological rhythm? </span></p>
             <a data-w-id="84706ed6-aabc-951f-d53b-2a28f4264bf1" href="/contact"
               class="fl-button-link-act cc-partners w-inline-block">
               <div class="button-link-content-act">

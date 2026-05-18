@@ -14518,7 +14518,7 @@ blockquote {
 @media screen and (max-width: 768px) {
 
   /* =========================
-     GLOBAL FONT FIX (QUAN TRỌNG NHẤT)
+     BASE FONT (QUAN TRỌNG)
   ========================= */
   html {
     font-size: 18px;
@@ -14530,7 +14530,7 @@ blockquote {
   }
 
   /* =========================
-     TEXT FIX CHUNG
+     HEADINGS
   ========================= */
   h1, .heading-large {
     font-size: 28px !important;
@@ -14544,65 +14544,30 @@ blockquote {
     font-size: 20px !important;
   }
 
+  /* =========================
+     PARAGRAPH / TEXT
+  ========================= */
   p,
   .text-size-regular,
   .fl-services-paragraph,
   .fl-mission-paragraph,
-  .fl-testimonial-small,
-  .text-size-small {
+  .fl-testimonial-small {
     font-size: 16px !important;
   }
 
+  .text-size-small,
   .text-size-small.faq,
   .number-faq {
     font-size: 15px !important;
   }
 
   /* =========================
-     BUTTON / UI TEXT
+     BUTTON TEXT ONLY (KHÔNG ĐỤNG STYLE BUTTON)
   ========================= */
-  button,
   .fl-button,
   .fl-button-hero-work-with-us,
-  .link-project {
+  button {
     font-size: 16px !important;
-  }
-
-  /* =========================
-     LAYOUT FIX NHẸ
-  ========================= */
-  .main-grid.home-three {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-  }
-
-  .container-w3.black-bg {
-    max-width: 100% !important;
-  }
-
-  .section,
-  .section-2 {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  /* =========================
-     IMAGE FIX
-  ========================= */
-  img,
-  .image,
-  .fl-poster-image-wasteminster2,
-  .fl-poster-image-wasteminster3,
-  .header-image-frame {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  /* =========================
-     VIDEO FIX
-  ========================= */
-  .background-video {
-    height: 60vh !important;
   }
 
 }

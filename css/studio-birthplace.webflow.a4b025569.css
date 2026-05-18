@@ -14515,3 +14515,51 @@ blockquote {
   font-style: normal;
   font-display: swap;
 }
+@media screen and (max-width: 768px) {
+
+  /* FONT FIX */
+  body {
+    font-size: 16px;
+  }
+
+  .text-size-regular {
+    font-size: 16px;
+  }
+
+  .text-size-small {
+    font-size: 14px;
+  }
+
+  .heading-large {
+    font-size: 28px;
+  }
+
+  .heading-xlarge.text-align-center {
+    font-size: 24px;
+  }
+
+  .heading-small {
+    font-size: 20px;
+  }
+
+  p, .fl-services-paragraph, .fl-mission-paragraph {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* LAYOUT FIX nhẹ */
+  .main-grid.home-three {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .fl-poster-image-wasteminster2,
+  .fl-poster-image-wasteminster3 {
+    width: 100%;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+}

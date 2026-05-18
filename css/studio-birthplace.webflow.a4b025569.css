@@ -6623,6 +6623,9 @@ blockquote {
   color: #126983;
 }
 
+.text-color-red {
+  color: #9f0a0a;
+}
 .project-link {
   text-align: right;
   width: 100%;

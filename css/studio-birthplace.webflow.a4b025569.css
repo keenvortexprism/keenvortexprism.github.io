@@ -14517,49 +14517,92 @@ blockquote {
 }
 @media screen and (max-width: 768px) {
 
-  /* FONT FIX */
+  /* =========================
+     GLOBAL FONT FIX (QUAN TRỌNG NHẤT)
+  ========================= */
+  html {
+    font-size: 18px;
+  }
+
   body {
-    font-size: 16px;
-  }
-
-  .text-size-regular {
-    font-size: 16px;
-  }
-
-  .text-size-small {
-    font-size: 14px;
-  }
-
-  .heading-large {
-    font-size: 28px;
-  }
-
-  .heading-xlarge.text-align-center {
-    font-size: 24px;
-  }
-
-  .heading-small {
-    font-size: 20px;
-  }
-
-  p, .fl-services-paragraph, .fl-mission-paragraph {
-    font-size: 15px;
+    font-size: 18px !important;
     line-height: 1.6;
   }
 
-  /* LAYOUT FIX nhẹ */
+  /* =========================
+     TEXT FIX CHUNG
+  ========================= */
+  h1, .heading-large {
+    font-size: 28px !important;
+  }
+
+  h2, .heading-xlarge, .heading-xlarge.text-align-center {
+    font-size: 24px !important;
+  }
+
+  h3, .heading-small {
+    font-size: 20px !important;
+  }
+
+  p,
+  .text-size-regular,
+  .fl-services-paragraph,
+  .fl-mission-paragraph,
+  .fl-testimonial-small,
+  .text-size-small {
+    font-size: 16px !important;
+  }
+
+  .text-size-small.faq,
+  .number-faq {
+    font-size: 15px !important;
+  }
+
+  /* =========================
+     BUTTON / UI TEXT
+  ========================= */
+  button,
+  .fl-button,
+  .fl-button-hero-work-with-us,
+  .link-project {
+    font-size: 16px !important;
+  }
+
+  /* =========================
+     LAYOUT FIX NHẸ
+  ========================= */
   .main-grid.home-three {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .container-w3.black-bg {
+    max-width: 100% !important;
+  }
+
+  .section,
+  .section-2 {
     padding-left: 16px;
     padding-right: 16px;
   }
 
+  /* =========================
+     IMAGE FIX
+  ========================= */
+  img,
+  .image,
   .fl-poster-image-wasteminster2,
-  .fl-poster-image-wasteminster3 {
-    width: 100%;
+  .fl-poster-image-wasteminster3,
+  .header-image-frame {
+    width: 100% !important;
+    height: auto !important;
   }
 
-  .image {
-    width: 100%;
+  /* =========================
+     VIDEO FIX
+  ========================= */
+  .background-video {
+    height: 60vh !important;
   }
 
 }

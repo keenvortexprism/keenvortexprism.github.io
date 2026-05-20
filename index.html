@@ -5,21 +5,21 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>KeenVortex Prism</title>
-  <meta name="description" content="KeenVortex Prism is a creative studio igniting global action, one story at a time." />
-
-  <!-- Open Graph / Facebook -->
+  
+  <!-- Social Preview: luôn đặt đầu head -->
   <meta property="og:title" content="KeenVortex Prism" />
   <meta property="og:description" content="KeenVortex Prism is a creative studio igniting global action, one story at a time." />
   <meta property="og:image" content="https://keenvortexprism.github.io/images/662cf7552e3e9cd2ada614f3_websitelogo-OptionA-v2.png" />
   <meta property="og:type" content="website" />
-
-  <!-- Twitter Card -->
+  
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="twitter:title" content="KeenVortex Prism" />
   <meta property="twitter:description" content="KeenVortex Prism is a creative studio igniting global action, one story at a time." />
   <meta property="twitter:image" content="https://keenvortexprism.github.io/images/662cf7552e3e9cd2ada614f3_websitelogo-OptionA-v2.png" />
 
+  <!-- Tiêu đề và mô tả -->
+  <title>KeenVortex Prism</title>
+  <meta name="description" content="KeenVortex Prism is a creative studio igniting global action, one story at a time." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- CSS -->
@@ -30,17 +30,15 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
     WebFont.load({
-      google: {
-        families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
-      }
+      google: { families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"] }
     });
   </script>
 
-  <!-- Webflow Touch/JS Detection -->
-  <script type="text/javascript">
+  <!-- Webflow JS / Touch detection -->
+  <script>
     !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
   </script>
 
@@ -67,18 +65,15 @@
       100% { transform: translate3d(-7rem,0,0); }
     }
 
-    .modal-wrapper {
-      -ms-overflow-style: none; scrollbar-width: none;
-    }
+    .modal-wrapper { -ms-overflow-style: none; scrollbar-width: none; }
     .modal-wrapper::-webkit-scrollbar { display: none; }
-
     .u-parent-gallery-scroll { transform: none !important; }
 
     .emailoctopus-form-wrapper input[type="email"],
     .emailoctopus-form-wrapper input[type="text"] {
       color: #9c9c9c; background-color: rgba(0,0,0,0);
       border: 0px solid white; border-bottom: 1px solid;
-      flex: 0 auto; margin-bottom: 0; padding: .75em 0 0.75em 0;
+      flex: 0 auto; margin-bottom: 0; padding: .75em 0 .75em 0;
       font-size: 16px !important; font-weight: 400; transition: border-color .3s;
     }
     .emailoctopus-form-wrapper input[type="submit"] {
@@ -92,7 +87,7 @@
   </style>
 
   <!-- Webflow Currency -->
-  <script type="text/javascript">
+  <script>
     window.__WEBFLOW_CURRENCY_SETTINGS = {
       "currencyCode": "USD","symbol":"$","decimal":".","fractionDigits":2,"group":",",
       "template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}",
